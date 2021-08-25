@@ -1,0 +1,4 @@
+# Complete It
+#### Video Demo:  <URL HERE>
+#### Description:
+"Complete It" is a website to-do list. On Complete It the user can create sticky notes that contain tasks they want to completed throughout the day. The sticky notes are created in the "Pending" section and when the user is finished with the task they can "X" out the task sending the note to "Completed". The user can keep all the tasks they've completed to use as motivation for newer tasks or they can clear out their completed tasks by clicking "X" in the "Completed" section. Users can also move completed tasks back to pending by clicking the upload button at the top left of the sticky note.

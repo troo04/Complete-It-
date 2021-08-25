@@ -1,0 +1,117 @@
+body {
+  /* background-image: url("abackground.jpg"); */
+  background-color: #19bcf7;
+}
+
+.to-do h1 {
+  /* color: #37327d; */
+  font-family: 'STIX Two Math', serif;
+  font-size: 60px;
+  text-align: center;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.to-do #time {
+  text-align: center;
+  font-family: 'STIX Two Math', serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: black;
+  /* background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent; */
+}
+
+.to-do {
+  border: 1px outset white;
+  text-align: center;
+  /* height: 500px; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex;
+  flex-direction: column; */
+  position: relative;
+}
+
+.top {
+  border-radius: 25px;
+  /* background-color: white;     */
+  text-align: center;
+  /* top: 50vh; */
+}
+
+.to-do #containerNotePen {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  width: 100%;
+  position: relative;
+}
+
+.to-do #containerNoteCom {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  width: 100%;
+  position: relative;
+}
+
+.to-do #addBtn {
+  padding: 10px;
+  background-color: #a7bdfa;
+  border-radius: 25px;
+}
+
+.to-do #myInput {
+  padding:10px;
+  border-radius:10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+/* Style the tab */
+.tab {
+  border-radius: 25px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin: 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
